@@ -3,7 +3,12 @@
   <groupId>webautomation</groupId>
   <artifactId>webautomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+  <name>webautomation</name>
+  <description>UI Automation of various webapps</description>
+  <properties>
+  	<maven.compiler.source>11</maven.compiler.source>
+  	<maven.compiler.target>11</maven.compiler.target>
+  </properties>
   <dependencies>
   	
  	<!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
