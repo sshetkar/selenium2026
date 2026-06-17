@@ -92,6 +92,7 @@ The project is configured to compile using Java 11.
 | Package | Class Name                   | Website                   | Description                                                                                          |
 | ------- | ---------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------- |
 | basics  | DemoBlazeTitleValidationTest | https://www.demoblaze.com | Launch browser, navigate to DemoBlaze, capture page title, and validate expected title using if-else |
+| forms  | RegistrationFormTest | http://uiplayground.techwithjatin.com | Automate registration form by entering user details and submitting the form |
 
 ---
 
@@ -100,9 +101,11 @@ The project is configured to compile using Java 11.
 ```text
 src/test/java
 │
-└── basics
-    │
-    └── DemoBlazeTitleValidationTest.java
+├── basics
+│   └── DemoBlazeTitleValidationTest.java
+│
+└── forms
+    └── RegistrationFormTest.java
 ```
 
 ---
