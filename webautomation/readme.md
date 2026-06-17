@@ -93,6 +93,7 @@ The project is configured to compile using Java 11.
 | ------- | ---------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------- |
 | basics  | DemoBlazeTitleValidationTest | https://www.demoblaze.com | Launch browser, navigate to DemoBlaze, capture page title, and validate expected title using if-else |
 | forms  | RegistrationFormTest | http://uiplayground.techwithjatin.com | Automate registration form by entering user details and submitting the form |
+| dynamiccontent  | MenuItemLoadingTest | http://uiplayground.techwithjatin.com | Load menu items dynamically, print item names and prices, validate live counter, and verify menu hide functionality |
 
 ---
 
@@ -104,8 +105,11 @@ src/test/java
 ├── basics
 │   └── DemoBlazeTitleValidationTest.java
 │
-└── forms
-    └── RegistrationFormTest.java
+├── forms
+│   └── RegistrationFormTest.java
+│
+└── dynamiccontent
+    └── MenuItemLoadingTest.java
 ```
 
 ---

@@ -10,6 +10,11 @@ public class RegistrationFormTest {
 
 	public static void main(String[] args) {
 		
+		/*
+ 		 * Assignment 1: Fill in all fields. Click Register and validates the success Message.
+		 */
+		
+		//Launch chrome browser and navigate to AUT
 		WebDriver driver  = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("http://uiplayground.techwithjatin.com/");
@@ -70,10 +75,6 @@ public class RegistrationFormTest {
 		}else {
 			System.out.println("Registration Un-Successful!");
 		}
-		
-		
-		
-		
 		
 	}
 
