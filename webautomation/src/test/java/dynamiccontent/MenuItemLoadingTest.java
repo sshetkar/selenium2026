@@ -40,7 +40,6 @@ public class MenuItemLoadingTest {
 			WebElement addMenuItemBtn = myWait.until(ExpectedConditions.elementToBeClickable(addMenuItemBtnLocator));
 			addMenuItemBtn.click();
 			counter++;
-			//Thread.sleep(2000);
 		}
 		
 		//2. Print name, price of each item
@@ -51,11 +50,8 @@ public class MenuItemLoadingTest {
 			
 			By foodNameLocator = By.xpath(".//div[@class='swiggy-name']");
 			WebElement foodName = singleFoodItem.findElement(foodNameLocator); //chaining of xpath (singleFoodItem+foodNameLocator)
-			//WebElement foodName = myWait.until(ExpectedConditions.visibilityOfElementLocated(foodNameLocator));
-			
 			By foodPriceLocator = By.xpath(".//span[@class='swiggy-price']");
 			WebElement foodPrice = singleFoodItem.findElement(foodPriceLocator); //chaining of xpath (singleFoodItem+foodPriceLocator)
-			//WebElement foodPrice = myWait.until(ExpectedConditions.visibilityOfElementLocated(foodPriceLocator));
 			System.out.println(foodName.getText()+" : "+foodPrice.getText());
 			
 		}
@@ -78,6 +74,8 @@ public class MenuItemLoadingTest {
 			System.err.println("Menu is still displayed");
 		}
 		
+		//Quit driver instance
+		driver.quit();
 	}
 
 }
