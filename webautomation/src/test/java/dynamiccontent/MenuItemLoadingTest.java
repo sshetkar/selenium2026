@@ -15,7 +15,8 @@ public class MenuItemLoadingTest {
 	public static void main(String[] args) throws InterruptedException {
 		
 		/* 
-		 * Assignment 2: Click + Add Menu Item three times and wait for each item to appear. 
+		 * Assignment 2:
+		 * Click + Add Menu Item three times and wait for each item to appear. 
 		 * After all three are loaded, print the name and price of each item to the console.
 		 * Read the live counter and print its current value.
 		 * Click Hide Menu, then confirm the section is no longer visible and printing it. 

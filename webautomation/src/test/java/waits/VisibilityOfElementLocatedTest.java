@@ -14,7 +14,8 @@ public class VisibilityOfElementLocatedTest {
 	public static void main(String[] args) {
 
 		/*
-		 * Assignment 3 - Task 1: Click Trigger button to start the condition
+		 * Assignment 3 - Task 1:
+		 * Click Trigger button to start the condition
 		 * Record the time before clicking using System.currentTimeMillis() 
 		 * Wait until text becomes visible
 		 * and Print the element text and total elapsed time in milliseconds

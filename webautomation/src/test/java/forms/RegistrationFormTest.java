@@ -11,7 +11,8 @@ public class RegistrationFormTest {
 	public static void main(String[] args) {
 		
 		/*
- 		 * Assignment 1: Fill in all fields. Click Register and validates the success Message.
+ 		 * Assignment 1:
+ 		 * Fill in all fields. Click Register and validates the success Message.
 		 */
 		
 		//Launch chrome browser and navigate to AUT

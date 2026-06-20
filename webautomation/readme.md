@@ -95,6 +95,7 @@ The project is configured to compile using Java 11.
 | forms  | RegistrationFormTest | http://uiplayground.techwithjatin.com | Automate registration form by entering user details and submitting the form |
 | dynamiccontent  | MenuItemLoadingTest | http://uiplayground.techwithjatin.com | Load menu items dynamically, print item names and prices, validate live counter, verify menu hide functionality, and synchronize elements using explicit waits |
 | waits  | VisibilityOfElementLocatedTest | http://uiplayground.techwithjatin.com | Demonstrate visibilityOfElementLocated() by waiting for a delayed element, capturing elapsed time, and printing the visible text |
+| waits  | ElementToBeClickableTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeClickable() by validating a disabled button, triggering its activation, and verifying attribute changes |
 
 ---
 
@@ -113,7 +114,8 @@ src/test/java
 │   └── MenuItemLoadingTest.java
 │
 └── waits
-    └── VisibilityOfElementLocatedTest.java
+    ├── VisibilityOfElementLocatedTest.java
+    └── ElementToBeClickableTest.java
 ```
 
 ---
