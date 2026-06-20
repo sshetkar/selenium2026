@@ -93,7 +93,7 @@ The project is configured to compile using Java 11.
 | ------- | ---------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------- |
 | basics  | DemoBlazeTitleValidationTest | https://www.demoblaze.com | Launch browser, navigate to DemoBlaze, capture page title, and validate expected title using if-else |
 | forms  | RegistrationFormTest | http://uiplayground.techwithjatin.com | Automate registration form by entering user details and submitting the form |
-| dynamiccontent  | MenuItemLoadingTest | http://uiplayground.techwithjatin.com | Load menu items dynamically, print item names and prices, validate live counter, and verify menu hide functionality |
+| dynamiccontent  | MenuItemLoadingTest | http://uiplayground.techwithjatin.com | Load menu items dynamically, print item names and prices, validate live counter, verify menu hide functionality, and synchronize elements using explicit waits |
 
 ---
 
@@ -135,11 +135,11 @@ mvn clean test
 Recommended commit format:
 
 ```text
-feat: add new automation functionality
-fix: resolve issue
-docs: update README documentation
-build: update pom.xml or dependencies
-refactor: improve code structure
+feat      -> New script/scenario added
+fix       -> Bug fixed
+refactor  -> Code improved without changing behavior
+build     -> pom.xml/dependency changes
+docs      -> README updates
 ```
 
 Examples:
