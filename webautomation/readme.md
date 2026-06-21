@@ -97,6 +97,7 @@ The project is configured to compile using Java 11.
 | waits  | VisibilityOfElementLocatedTest | http://uiplayground.techwithjatin.com | Demonstrate visibilityOfElementLocated() by waiting for a delayed element, capturing elapsed time, and printing the visible text |
 | waits  | ElementToBeClickableTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeClickable() by validating a disabled button, triggering its activation, and verifying attribute changes |
 | waits  | TextToBePresentInElementLocatedTest | http://uiplayground.techwithjatin.com | Demonstrate textToBePresentInElementLocated() by triggering dynamic text injection and validating the updated content |
+| waits  | InvisibilityOfElementLocatedTest | http://uiplayground.techwithjatin.com | Demonstrate invisibilityOfElementLocated() by waiting for a loading spinner to disappear after triggering the action |
 
 ---
 
@@ -117,7 +118,8 @@ src/test/java
 └── waits
     ├── VisibilityOfElementLocatedTest.java
     ├── ElementToBeClickableTest.java
-    └── TextToBePresentInElementLocatedTest.java
+    ├── TextToBePresentInElementLocatedTest.java
+    └── InvisibilityOfElementLocatedTest.java
 ```
 
 ---
