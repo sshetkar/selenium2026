@@ -48,6 +48,9 @@ public class ElementToBeClickableTest {
 		actualDisabledBtnAttribute = disabledBtn.getAttribute("disabled");
 		System.out.println("Button Disabled? "+actualDisabledBtnAttribute);
 		
+		//Quit driver instance
+		driver.quit();
+		
 	}
 
 }

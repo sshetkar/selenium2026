@@ -96,6 +96,7 @@ The project is configured to compile using Java 11.
 | dynamiccontent  | MenuItemLoadingTest | http://uiplayground.techwithjatin.com | Load menu items dynamically, print item names and prices, validate live counter, verify menu hide functionality, and synchronize elements using explicit waits |
 | waits  | VisibilityOfElementLocatedTest | http://uiplayground.techwithjatin.com | Demonstrate visibilityOfElementLocated() by waiting for a delayed element, capturing elapsed time, and printing the visible text |
 | waits  | ElementToBeClickableTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeClickable() by validating a disabled button, triggering its activation, and verifying attribute changes |
+| waits  | TextToBePresentInElementLocatedTest | http://uiplayground.techwithjatin.com | Demonstrate textToBePresentInElementLocated() by triggering dynamic text injection and validating the updated content |
 
 ---
 
@@ -115,7 +116,8 @@ src/test/java
 │
 └── waits
     ├── VisibilityOfElementLocatedTest.java
-    └── ElementToBeClickableTest.java
+    ├── ElementToBeClickableTest.java
+    └── TextToBePresentInElementLocatedTest.java
 ```
 
 ---
