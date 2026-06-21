@@ -99,6 +99,7 @@ The project is configured to compile using Java 11.
 | waits  | TextToBePresentInElementLocatedTest | http://uiplayground.techwithjatin.com | Demonstrate textToBePresentInElementLocated() by triggering dynamic text injection and validating the updated content |
 | waits  | InvisibilityOfElementLocatedTest | http://uiplayground.techwithjatin.com | Demonstrate invisibilityOfElementLocated() by waiting for a loading spinner to disappear after triggering the action |
 | waits  | StalenessOfTest | http://uiplayground.techwithjatin.com | Demonstrate stalenessOf() by detecting element re-rendering and validating the updated data-render-key attribute |
+| waits  | ElementToBeSelectedTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeSelected() by validating checkbox selection before and after triggering the action |
 
 ---
 
@@ -121,7 +122,8 @@ src/test/java
     ├── ElementToBeClickableTest.java
     ├── TextToBePresentInElementLocatedTest.java
     ├── InvisibilityOfElementLocatedTest.java
-    └── StalenessOfTest.java
+    ├── StalenessOfTest.java
+    └── ElementToBeSelectedTest.java
 ```
 
 ---

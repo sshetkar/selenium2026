@@ -14,7 +14,7 @@ public class StalenessOfTest {
 	public static void main(String[] args) {
 		
 		/*
-		 * Assignment 4 - Task 5:
+		 * Assignment 3 - Task 5:
 		 * Print attribute value 'data-render-key'
 		 * Click trigger button, and again check attribute value 'data-render-key'
 		 */
