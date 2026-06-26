@@ -45,7 +45,13 @@ Currently all automation scripts are maintained under:
 src/test/java
 ```
 
-Future test data, configuration files, and resources will be maintained under:
+Test data maintained under:
+
+```text
+src/test/java/utility
+```
+
+Configuration files, and resources will be maintained under:
 
 ```text
 src/test/resources
@@ -104,6 +110,7 @@ The project is configured to compile using Java 11.
 | fileUpload  | ValidFileUploadTest | http://uiplayground.techwithjatin.com | Upload valid files using a hidden file input, then verify uploaded file name, size, status, and total uploaded files |
 | fileUpload  | InvalidFileUploadTest | http://uiplayground.techwithjatin.com | Upload oversized files exceeding the supported limit, verify rejected upload status, and print file details including name, size, and status |
 | fileUpload  | CountFileUploadTest | http://uiplayground.techwithjatin.com | Upload valid and oversized files, then count and print the total, successfully uploaded, and rejected files based on upload status |
+| datepicker  | DatePickerTest | http://uiplayground.techwithjatin.com | Read the default single date, select a date and date range, set the time picker, and print the list of disabled dates |
 
 ---
 
@@ -115,28 +122,31 @@ src/test/java
 ├── basics
 │   └── DemoBlazeTitleValidationTest.java
 │
-├── forms
-│   ├── RegistrationFormTest.java
-│   └── ServiceNowTest.java
+├── datepicker
+│   └── DatePickerTest.java
 │
 ├── dynamiccontent
 │   └── MenuItemLoadingTest.java
 │
-├── waits
-│   ├── VisibilityOfElementLocatedTest.java
-│   ├── ElementToBeClickableTest.java
-│   ├── TextToBePresentInElementLocatedTest.java
-│   ├── InvisibilityOfElementLocatedTest.java
-│   ├── StalenessOfTest.java
-│   └── ElementToBeSelectedTest.java
-│
 ├── fileupload
-│   ├── ValidFileUploadTest.java
-│   └── InvalidFileUploadTest.java
-│	└── CountFileUploadTest.java
+│   ├── CountFileUploadTest.java
+│   ├── InvalidFileUploadTest.java
+│   └── ValidFileUploadTest.java
 │
-└── utility
-    └── TestDataGenerator.java
+├── forms
+│   ├── RegistrationFormTest.java
+│   └── ServiceNowTest.java
+│
+├── utility
+│   └── TestDataGenerator.java
+│
+└── waits
+    ├── ElementToBeClickableTest.java
+    ├── ElementToBeSelectedTest.java
+    ├── InvisibilityOfElementLocatedTest.java
+    ├── StalenessOfTest.java
+    ├── TextToBePresentInElementLocatedTest.java
+    └── VisibilityOfElementLocatedTest.java
 ```
 
 ---
@@ -167,7 +177,7 @@ mvn clean test
 
 ## Git Commit Convention
 
-Recommended commit format:
+Commit format:
 
 ```text
 feat      -> New script/scenario added
