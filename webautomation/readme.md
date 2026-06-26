@@ -93,6 +93,7 @@ The project is configured to compile using Java 11.
 | ------- | ---------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------- |
 | basics  | DemoBlazeTitleValidationTest | https://www.demoblaze.com | Launch browser, navigate to DemoBlaze, capture page title, and validate expected title using if-else |
 | forms  | RegistrationFormTest | http://uiplayground.techwithjatin.com | Automate registration form by entering user details and submitting the form |
+| forms  | ServiceNowTest | https://mphasisin2.service-now.com/ExEmployeeServiceForm | Automate the ServiceNow ex-employee service request form using dynamically generated test data, populate all mandatory fields, retrieve CAPTCHA value, and enter it into the form |
 | dynamiccontent  | MenuItemLoadingTest | http://uiplayground.techwithjatin.com | Load menu items dynamically, print item names and prices, validate live counter, verify menu hide functionality, and synchronize elements using explicit waits |
 | waits  | VisibilityOfElementLocatedTest | http://uiplayground.techwithjatin.com | Demonstrate visibilityOfElementLocated() by waiting for a delayed element, capturing elapsed time, and printing the visible text |
 | waits  | ElementToBeClickableTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeClickable() by validating a disabled button, triggering its activation, and verifying attribute changes |
@@ -112,19 +113,31 @@ src/test/java
 │   └── DemoBlazeTitleValidationTest.java
 │
 ├── forms
-│   └── RegistrationFormTest.java
+│   ├── RegistrationFormTest.java
+│   └── ServiceNowTest.java
 │
 ├── dynamiccontent
 │   └── MenuItemLoadingTest.java
 │
-└── waits
-    ├── VisibilityOfElementLocatedTest.java
-    ├── ElementToBeClickableTest.java
-    ├── TextToBePresentInElementLocatedTest.java
-    ├── InvisibilityOfElementLocatedTest.java
-    ├── StalenessOfTest.java
-    └── ElementToBeSelectedTest.java
+├── waits
+│   ├── VisibilityOfElementLocatedTest.java
+│   ├── ElementToBeClickableTest.java
+│   ├── TextToBePresentInElementLocatedTest.java
+│   ├── InvisibilityOfElementLocatedTest.java
+│   ├── StalenessOfTest.java
+│   └── ElementToBeSelectedTest.java
+│
+└── utility
+    └── TestDataGenerator.java
 ```
+
+---
+
+## Utility Classes
+
+| Package | Class Name | Purpose |
+|---------|------------|---------|
+| utility | TestDataGenerator | Generates reusable random test data including full names, email addresses, Spain mobile numbers, and employee IDs for Selenium automation scripts. |
 
 ---
 

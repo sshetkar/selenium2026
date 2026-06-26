@@ -24,7 +24,7 @@ public class RegistrationFormTest {
 		By firstNameFieldLocator = By.xpath("//input[@data-testid='input-first-name']");
 		WebElement firstNameField = driver.findElement(firstNameFieldLocator);
 		firstNameField.clear();
-		firstNameField.sendKeys("Cristiano");
+		firstNameField.sendKeys();
 		
 		By lastNameFieldLocator = By.xpath("//input[@data-testid='input-last-name']");
 		WebElement lastNameField = driver.findElement(lastNameFieldLocator);

@@ -37,7 +37,7 @@ public class ElementToBeClickableTest {
 		By disabledBtnLocator = By.xpath("//button[contains(text(),'') and @data-testid='wait-clickable-target']");
 		WebElement disabledBtn = myWait.until(ExpectedConditions.visibilityOfElementLocated(disabledBtnLocator));
 		String actualDisabledBtnAttribute = disabledBtn.getAttribute("disabled");
-		System.out.println("Button Disabled? "+actualDisabledBtnAttribute);
+		System.out.println("Disabled button getAttribiute value? "+actualDisabledBtnAttribute);
 		
 		By btnTriggerClickableLocator = By.xpath("//button[contains(text(),'Trigger') and @data-testid='btn-trigger-clickable']");
 		WebElement btnTriggerClickable = myWait.until(ExpectedConditions.elementToBeClickable(btnTriggerClickableLocator));
