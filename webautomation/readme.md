@@ -103,6 +103,7 @@ The project is configured to compile using Java 11.
 | waits  | ElementToBeSelectedTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeSelected() by validating checkbox selection before and after triggering the action |
 | fileUpload  | ValidFileUploadTest | http://uiplayground.techwithjatin.com | Upload valid files using a hidden file input, then verify uploaded file name, size, status, and total uploaded files |
 | fileUpload  | InvalidFileUploadTest | http://uiplayground.techwithjatin.com | Upload oversized files exceeding the supported limit, verify rejected upload status, and print file details including name, size, and status |
+| fileUpload  | CountFileUploadTest | http://uiplayground.techwithjatin.com | Upload valid and oversized files, then count and print the total, successfully uploaded, and rejected files based on upload status |
 
 ---
 
@@ -132,6 +133,7 @@ src/test/java
 ├── fileupload
 │   ├── ValidFileUploadTest.java
 │   └── InvalidFileUploadTest.java
+│	└── CountFileUploadTest.java
 │
 └── utility
     └── TestDataGenerator.java
