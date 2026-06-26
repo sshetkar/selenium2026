@@ -102,6 +102,7 @@ The project is configured to compile using Java 11.
 | waits  | StalenessOfTest | http://uiplayground.techwithjatin.com | Demonstrate stalenessOf() by detecting element re-rendering and validating the updated data-render-key attribute |
 | waits  | ElementToBeSelectedTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeSelected() by validating checkbox selection before and after triggering the action |
 | fileUpload  | ValidFileUploadTest | http://uiplayground.techwithjatin.com | Upload valid files using a hidden file input, then verify uploaded file name, size, status, and total uploaded files |
+| fileUpload  | InvalidFileUploadTest | http://uiplayground.techwithjatin.com | Upload oversized files exceeding the supported limit, verify rejected upload status, and print file details including name, size, and status |
 
 ---
 
@@ -129,7 +130,8 @@ src/test/java
 │   └── ElementToBeSelectedTest.java
 │
 ├── fileupload
-│   └── ValidFileUploadTest.java
+│   ├── ValidFileUploadTest.java
+│   └── InvalidFileUploadTest.java
 │
 └── utility
     └── TestDataGenerator.java

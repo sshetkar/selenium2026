@@ -16,7 +16,7 @@ public class ValidFileUploadTest {
 		
 		/*
  		 * Assignment 5 - Task 1:
- 		 * Locate the hidden tag input using data-testid="file-input" (present in DOm but not visible on webpage)
+ 		 * Locate the hidden tag input using data-testid="file-input" (present in DOM but not visible on webpage)
  		 * Upload a file and Print file name, size and status
 		 */
 		
