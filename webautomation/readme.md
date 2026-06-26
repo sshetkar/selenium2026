@@ -101,6 +101,7 @@ The project is configured to compile using Java 11.
 | waits  | InvisibilityOfElementLocatedTest | http://uiplayground.techwithjatin.com | Demonstrate invisibilityOfElementLocated() by waiting for a loading spinner to disappear after triggering the action |
 | waits  | StalenessOfTest | http://uiplayground.techwithjatin.com | Demonstrate stalenessOf() by detecting element re-rendering and validating the updated data-render-key attribute |
 | waits  | ElementToBeSelectedTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeSelected() by validating checkbox selection before and after triggering the action |
+| fileUpload  | ValidFileUploadTest | http://uiplayground.techwithjatin.com | Upload valid files using a hidden file input, then verify uploaded file name, size, status, and total uploaded files |
 
 ---
 
@@ -126,6 +127,9 @@ src/test/java
 │   ├── InvisibilityOfElementLocatedTest.java
 │   ├── StalenessOfTest.java
 │   └── ElementToBeSelectedTest.java
+│
+├── fileupload
+│   └── ValidFileUploadTest.java
 │
 └── utility
     └── TestDataGenerator.java

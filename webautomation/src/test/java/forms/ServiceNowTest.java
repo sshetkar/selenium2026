@@ -1,7 +1,6 @@
 package forms;
 
 import java.time.Duration;
-import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,14 +13,15 @@ import utility.TestDataGenerator;
 
 public class ServiceNowTest {
 
-	
 	public static void main(String[] args) {
 		
 		/*
- 		 * Assignment: Fill in all fields. Retrive captcha and enter captcha
+ 		 * Assignment 4:
+ 		 * Fill in all mandatory fields using testDataGenerator utility class
+ 		 * Retrive captcha and enter captcha
 		 */
 		
-		//Launch chrome browser and navigate to AUT
+		//Launch edge browser and navigate to AUT
 		WebDriver driver  = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://mphasisin2.service-now.com/ExEmployeeServiceForm");
@@ -85,8 +85,8 @@ public class ServiceNowTest {
 		WebElement captchaEnterField = myWait.until(ExpectedConditions.visibilityOfElementLocated(captchaEnterFieldLocator));
 		captchaEnterField.sendKeys(captchaValue);
 		
-		
-		
+		//Quit driver instance
+		driver.quit();
 		
 	}
 
