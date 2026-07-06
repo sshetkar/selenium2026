@@ -99,6 +99,7 @@ The project is configured to compile using Java 11.
 | ------- | ---------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------- |
 | basics  | DemoBlazeTitleValidationTest | https://www.demoblaze.com | Launch browser, navigate to DemoBlaze, capture page title, and validate expected title using if-else |
 | customcalendar  | CustomCalendarTest | http://uiplayground.techwithjatin.com | Open the custom calendar, navigate to the next month, select an available weekday, and verify the selected date in the input field |
+| customcalendar  | DateRangeTest | http://uiplayground.techwithjatin.com | Select the Date Range tab, choose start and end dates from the custom calendar, and print the selected date range |
 | customcalendar  | VerifyDisabledDatesTest | http://uiplayground.techwithjatin.com | Select an available date from the custom calendar, attempt to select a disabled date, and verify that the previously selected date remains unchanged |
 | datepicker  | DatePickerTest | http://uiplayground.techwithjatin.com | Read the default single date, select a date and date range, set the time picker, and print the list of disabled dates |
 | dynamiccontent  | MenuItemLoadingTest | http://uiplayground.techwithjatin.com | Load menu items dynamically, print item names and prices, validate live counter, verify menu hide functionality, and synchronize elements using explicit waits |
@@ -126,6 +127,7 @@ src/test/java
 │
 ├── customcalendar
 │   └── CustomCalendarTest.java
+│   └── DateRangeTest.java
 │   └── VerifyDisabledDatesTest.java
 │
 ├── datepicker
