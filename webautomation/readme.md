@@ -108,6 +108,7 @@ The project is configured to compile using Java 11.
 | fileupload  | ValidFileUploadTest | http://uiplayground.techwithjatin.com | Upload valid files using a hidden file input, then verify uploaded file name, size, status, and total uploaded files |
 | forms  | RegistrationFormTest | http://uiplayground.techwithjatin.com | Automate registration form by entering user details and submitting the form |
 | forms  | ServiceNowTest | https://mphasisin2.service-now.com/ExEmployeeServiceForm | Automate the ServiceNow ex-employee service request form using dynamically generated test data, populate all mandatory fields, retrieve CAPTCHA value, and enter it into the form |
+| iframe  | LoginIFrameTest | http://uiplayground.techwithjatin.com | Switch into an iframe, perform login using valid credentials, verify the welcome message, and switch back to the main page |
 | waits  | ElementToBeClickableTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeClickable() by validating a disabled button, triggering its activation, and verifying attribute changes |
 | waits  | ElementToBeSelectedTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeSelected() by validating checkbox selection before and after triggering the action |
 | waits  | InvisibilityOfElementLocatedTest | http://uiplayground.techwithjatin.com | Demonstrate invisibilityOfElementLocated() by waiting for a loading spinner to disappear after triggering the action |
@@ -144,6 +145,9 @@ src/test/java
 ├── forms
 │   ├── RegistrationFormTest.java
 │   └── ServiceNowTest.java
+│
+├── iframe
+│   └── LoginIFrameTest.java
 │
 ├── utility
 │   └── TestDataGenerator.java
