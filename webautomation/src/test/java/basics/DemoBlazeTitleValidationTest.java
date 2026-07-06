@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DemoBlazeTitleValidationTest {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
 		
 		System.out.println("Test Case  - Validate title of the DemoBlaze website");
 		
@@ -13,7 +13,7 @@ public class DemoBlazeTitleValidationTest {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.demoblaze.com/");
-		
+	
 		//Validate title
 		String expectedTitle = "STORE";
 		String actualTitle = driver.getTitle();
@@ -23,9 +23,10 @@ public class DemoBlazeTitleValidationTest {
 			System.out.println("Test Fail - Validate title of the DemoBlaze website\nExpected Title:"+expectedTitle+"\nActual Title:"+actualTitle);
 		}
 		
-		//Quit all browser instances of webdriver
+		//Quit all browser instances of webdriver 
 		driver.quit();
 		
 	}
+
 	
 }

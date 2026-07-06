@@ -98,12 +98,13 @@ The project is configured to compile using Java 11.
 | Package | Class Name                   | Website                   | Description                                                                                          |
 | ------- | ---------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------- |
 | basics  | DemoBlazeTitleValidationTest | https://www.demoblaze.com | Launch browser, navigate to DemoBlaze, capture page title, and validate expected title using if-else |
-| customcalendar  | CustomCalendarTest | https://www.demoblaze.com | Open the custom calendar, navigate to the next month, select an available weekday, and verify the selected date in the input field |
+| customcalendar  | CustomCalendarTest | http://uiplayground.techwithjatin.com | Open the custom calendar, navigate to the next month, select an available weekday, and verify the selected date in the input field |
+| customcalendar  | VerifyDisabledDatesTest | http://uiplayground.techwithjatin.com | Select an available date from the custom calendar, attempt to select a disabled date, and verify that the previously selected date remains unchanged |
 | datepicker  | DatePickerTest | http://uiplayground.techwithjatin.com | Read the default single date, select a date and date range, set the time picker, and print the list of disabled dates |
 | dynamiccontent  | MenuItemLoadingTest | http://uiplayground.techwithjatin.com | Load menu items dynamically, print item names and prices, validate live counter, verify menu hide functionality, and synchronize elements using explicit waits |
-| fileUpload  | CountFileUploadTest | http://uiplayground.techwithjatin.com | Upload valid and oversized files, then count and print the total, successfully uploaded, and rejected files based on upload status |
-| fileUpload  | InvalidFileUploadTest | http://uiplayground.techwithjatin.com | Upload oversized files exceeding the supported limit, verify rejected upload status, and print file details including name, size, and status |
-| fileUpload  | ValidFileUploadTest | http://uiplayground.techwithjatin.com | Upload valid files using a hidden file input, then verify uploaded file name, size, status, and total uploaded files |
+| fileupload  | CountFileUploadTest | http://uiplayground.techwithjatin.com | Upload valid and oversized files, then count and print the total, successfully uploaded, and rejected files based on upload status |
+| fileupload  | InvalidFileUploadTest | http://uiplayground.techwithjatin.com | Upload oversized files exceeding the supported limit, verify rejected upload status, and print file details including name, size, and status |
+| fileupload  | ValidFileUploadTest | http://uiplayground.techwithjatin.com | Upload valid files using a hidden file input, then verify uploaded file name, size, status, and total uploaded files |
 | forms  | RegistrationFormTest | http://uiplayground.techwithjatin.com | Automate registration form by entering user details and submitting the form |
 | forms  | ServiceNowTest | https://mphasisin2.service-now.com/ExEmployeeServiceForm | Automate the ServiceNow ex-employee service request form using dynamically generated test data, populate all mandatory fields, retrieve CAPTCHA value, and enter it into the form |
 | waits  | ElementToBeClickableTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeClickable() by validating a disabled button, triggering its activation, and verifying attribute changes |
@@ -125,6 +126,7 @@ src/test/java
 │
 ├── customcalendar
 │   └── CustomCalendarTest.java
+│   └── VerifyDisabledDatesTest.java
 │
 ├── datepicker
 │   └── DatePickerTest.java

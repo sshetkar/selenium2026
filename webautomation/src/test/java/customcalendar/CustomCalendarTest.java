@@ -15,7 +15,7 @@ public class CustomCalendarTest {
 	public static void main(String[] args) {
 		
 		/*
- 		 * Assignment 7:
+ 		 * Assignment 7 Task 1:
  		 * Select tab 'Single Date' and open the calendar
 		 * Read the month/year header and go to next month
 		 * Select a weekday and Verify the input attribute value changed
