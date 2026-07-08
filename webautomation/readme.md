@@ -110,6 +110,7 @@ The project is configured to compile using Java 11.
 | forms  | ServiceNowTest | https://mphasisin2.service-now.com/ExEmployeeServiceForm | Automate the ServiceNow ex-employee service request form using dynamically generated test data, populate all mandatory fields, retrieve CAPTCHA value, and enter it into the form |
 | iframe  | LoginIFrameTest | http://uiplayground.techwithjatin.com | Switch into an iframe, perform login using valid credentials, verify the welcome message, and switch back to the main page |
 | lazyload  | LazyLoadInitialStateTest | http://uiplayground.techwithjatin.com | Verify the initial state of the lazy loading component by printing the image counter and counting visible placeholder elements before scrolling |
+| lazyload  | LazyLoadScrollTest | http://uiplayground.techwithjatin.com | Scroll each lazy-loaded image container into view, wait for its placeholder to disappear, and verify that the corresponding image becomes visible using explicit waits |
 | waits  | ElementToBeClickableTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeClickable() by validating a disabled button, triggering its activation, and verifying attribute changes |
 | waits  | ElementToBeSelectedTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeSelected() by validating checkbox selection before and after triggering the action |
 | waits  | InvisibilityOfElementLocatedTest | http://uiplayground.techwithjatin.com | Demonstrate invisibilityOfElementLocated() by waiting for a loading spinner to disappear after triggering the action |
@@ -125,36 +126,37 @@ The project is configured to compile using Java 11.
 src/test/java
 │
 ├── basics
-│   └── DemoBlazeTitleValidationTest.java
+│   ├── DemoBlazeTitleValidationTest.java
 │
 ├── customcalendar
-│   └── CustomCalendarTest.java
-│   └── DateRangeTest.java
-│   └── VerifyDisabledDatesTest.java
+│   ├── CustomCalendarTest.java
+│   ├── DateRangeTest.java
+│   ├── VerifyDisabledDatesTest.java
 │
 ├── datepicker
-│   └── DatePickerTest.java
+│   ├── DatePickerTest.java
 │
 ├── dynamiccontent
-│   └── MenuItemLoadingTest.java
+│   ├── MenuItemLoadingTest.java
 │
 ├── fileupload
 │   ├── CountFileUploadTest.java
 │   ├── InvalidFileUploadTest.java
-│   └── ValidFileUploadTest.java
+│   ├── ValidFileUploadTest.java
 │
 ├── forms
 │   ├── RegistrationFormTest.java
-│   └── ServiceNowTest.java
+│   ├── ServiceNowTest.java
 │
 ├── iframe
-│   └── LoginIFrameTest.java
+│   ├── LoginIFrameTest.java
 │
 ├── lazyload
-│   └── LazyLoadInitialStateTest.java
+│   ├── LazyLoadInitialStateTest.java
+│   ├── LazyLoadScrollTest.java
 │
 ├── utility
-│   └── TestDataGenerator.java
+│   ├── TestDataGenerator.java
 │
 └── waits
     ├── ElementToBeClickableTest.java
@@ -162,7 +164,7 @@ src/test/java
     ├── InvisibilityOfElementLocatedTest.java
     ├── StalenessOfTest.java
     ├── TextToBePresentInElementLocatedTest.java
-    └── VisibilityOfElementLocatedTest.java
+    ├── VisibilityOfElementLocatedTest.java
 ```
 
 ---
