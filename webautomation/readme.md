@@ -109,6 +109,7 @@ The project is configured to compile using Java 11.
 | forms  | RegistrationFormTest | http://uiplayground.techwithjatin.com | Automate registration form by entering user details and submitting the form |
 | forms  | ServiceNowTest | https://mphasisin2.service-now.com/ExEmployeeServiceForm | Automate the ServiceNow ex-employee service request form using dynamically generated test data, populate all mandatory fields, retrieve CAPTCHA value, and enter it into the form |
 | iframe  | LoginIFrameTest | http://uiplayground.techwithjatin.com | Switch into an iframe, perform login using valid credentials, verify the welcome message, and switch back to the main page |
+| lazyload  | LazyLoadImageDetailsTest | http://uiplayground.techwithjatin.com | Scroll each lazy-loaded image into view, print its data-testid, alt text, caption, CSS class, and the updated image loading counter after every successful load |
 | lazyload  | LazyLoadInitialStateTest | http://uiplayground.techwithjatin.com | Verify the initial state of the lazy loading component by printing the image counter and counting visible placeholder elements before scrolling |
 | lazyload  | LazyLoadScrollTest | http://uiplayground.techwithjatin.com | Scroll each lazy-loaded image container into view, wait for its placeholder to disappear, and verify that the corresponding image becomes visible using explicit waits |
 | waits  | ElementToBeClickableTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeClickable() by validating a disabled button, triggering its activation, and verifying attribute changes |
@@ -152,6 +153,7 @@ src/test/java
 │   ├── LoginIFrameTest.java
 │
 ├── lazyload
+│   ├── LazyLoadImageDetailsTest.java
 │   ├── LazyLoadInitialStateTest.java
 │   ├── LazyLoadScrollTest.java
 │
