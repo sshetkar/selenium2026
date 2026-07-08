@@ -71,10 +71,10 @@ public class LazyLoadImageDetailsTest {
 			
 			System.out.println("----------------------------------------------------------------");
 			
-			//Quit driver instance
-			driver.quit();
-			
 		}
+		
+		//Quit driver instance
+		driver.quit();
 			
 	}
 

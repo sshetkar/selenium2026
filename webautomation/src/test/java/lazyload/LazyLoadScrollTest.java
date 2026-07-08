@@ -47,7 +47,6 @@ public class LazyLoadScrollTest {
 			js.executeScript("arguments[0].scrollIntoView({behavior:'smooth',block:'center'})", imageList); //smooth scrolling
 			
 			//wait for its placeholder to disappear
-			//By imageListLocator = By.xpath("//div[starts-with(@data-testid,'img-placeholder-"+i+"')]"); //dynamic xpath
 			By imagePlaceholderListLocator = By.xpath("//div[@data-testid='img-placeholder-"+i+"']"); //dynamic xpath
 			boolean isImagesInvisible = myWait.until(ExpectedConditions.invisibilityOfElementLocated(imagePlaceholderListLocator));
 			System.out.println("is placeholder "+i+" Invisible = "+isImagesInvisible);
