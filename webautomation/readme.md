@@ -113,6 +113,7 @@ The project is configured to compile using Java 11.
 | lazyload  | LazyLoadInitialStateTest | http://uiplayground.techwithjatin.com | Verify the initial state of the lazy loading component by printing the image counter and counting visible placeholder elements before scrolling |
 | lazyload  | LazyLoadScrollTest | http://uiplayground.techwithjatin.com | Scroll each lazy-loaded image container into view, wait for its placeholder to disappear, and verify that the corresponding image becomes visible using explicit waits |
 | lazyload  | LazyLoadVerificationTest | http://uiplayground.techwithjatin.com | Verify that all lazy-loaded images are successfully loaded by counting images with the img-loaded class, confirming no placeholders remain, and validating the final loading counter |
+| radiobutton  | RadioButtonSelectionTest | https://testautomationpractice.blogspot.com/ | Verify gender radio button selection by counting available options, selecting each radio button, and printing its selection status |
 | waits  | ElementToBeClickableTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeClickable() by validating a disabled button, triggering its activation, and verifying attribute changes |
 | waits  | ElementToBeSelectedTest | http://uiplayground.techwithjatin.com | Demonstrate elementToBeSelected() by validating checkbox selection before and after triggering the action |
 | waits  | InvisibilityOfElementLocatedTest | http://uiplayground.techwithjatin.com | Demonstrate invisibilityOfElementLocated() by waiting for a loading spinner to disappear after triggering the action |
@@ -159,8 +160,11 @@ src/test/java
 │   ├── LazyLoadScrollTest.java
 │   ├── LazyLoadVerificationTest.java
 │
-├── utility
-│   ├── TestDataGenerator.java
+├── lazyload
+│   ├── LazyLoadImageDetailsTest.java
+│
+├── radiobutton
+│   ├── RadioButtonSelectionTest.java
 │
 └── waits
     ├── ElementToBeClickableTest.java
