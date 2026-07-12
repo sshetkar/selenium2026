@@ -98,6 +98,7 @@ The project is configured to compile using Java 11.
 | Package | Class Name                   | Website                   | Description                                                                                          |
 | ------- | ---------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------- |
 | basics  | DemoBlazeTitleValidationTest | https://www.demoblaze.com | Launch browser, navigate to DemoBlaze, capture page title, and validate expected title using if-else |
+| checkbox  | CheckBoxSelectionTest | https://testautomationpractice.blogspot.com/ | Locate all day checkboxes, select specific checkboxes, iterate through each checkbox, and validate updated selection states after clicking |
 | customcalendar  | CustomCalendarTest | http://uiplayground.techwithjatin.com | Open the custom calendar, navigate to the next month, select an available weekday, and verify the selected date in the input field |
 | customcalendar  | DateRangeTest | http://uiplayground.techwithjatin.com | Select the Date Range tab, choose start and end dates from the custom calendar, and print the selected date range |
 | customcalendar  | VerifyDisabledDatesTest | http://uiplayground.techwithjatin.com | Select an available date from the custom calendar, attempt to select a disabled date, and verify that the previously selected date remains unchanged |
@@ -130,6 +131,9 @@ src/test/java
 │
 ├── basics
 │   ├── DemoBlazeTitleValidationTest.java
+│
+├── checkbox
+│   ├── CheckBoxSelectionTest.java
 │
 ├── customcalendar
 │   ├── CustomCalendarTest.java

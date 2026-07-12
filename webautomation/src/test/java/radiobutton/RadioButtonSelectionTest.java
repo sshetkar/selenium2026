@@ -15,7 +15,7 @@ public class RadioButtonSelectionTest {
 	public static void main(String[] args) {
 		
 		/*
- 		 * Assignment 10 Task 1:
+ 		 * Assignment 10:
  		 * Locate all gender radio buttons and print their count
  		 * Select the Male radio button and verify its selection status
  		 * Iterate through each radio button, print its id and selection state,
