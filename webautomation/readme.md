@@ -103,6 +103,7 @@ The project is configured to compile using Java 11.
 | customcalendar  | DateRangeTest | http://uiplayground.techwithjatin.com | Select the Date Range tab, choose start and end dates from the custom calendar, and print the selected date range |
 | customcalendar  | VerifyDisabledDatesTest | http://uiplayground.techwithjatin.com | Select an available date from the custom calendar, attempt to select a disabled date, and verify that the previously selected date remains unchanged |
 | datepicker  | DatePickerTest | http://uiplayground.techwithjatin.com | Read the default single date, select a date and date range, set the time picker, and print the list of disabled dates |
+| dropdown  | DropdownSelectionTest | https://testautomationpractice.blogspot.com/ | Locate the Country dropdown and print the total number of options and select a country using visible text and print the selected country |
 | dynamiccontent  | MenuItemLoadingTest | http://uiplayground.techwithjatin.com | Load menu items dynamically, print item names and prices, validate live counter, verify menu hide functionality, and synchronize elements using explicit waits |
 | fileupload  | CountFileUploadTest | http://uiplayground.techwithjatin.com | Upload valid and oversized files, then count and print the total, successfully uploaded, and rejected files based on upload status |
 | fileupload  | InvalidFileUploadTest | http://uiplayground.techwithjatin.com | Upload oversized files exceeding the supported limit, verify rejected upload status, and print file details including name, size, and status |
@@ -142,6 +143,9 @@ src/test/java
 │
 ├── datepicker
 │   ├── DatePickerTest.java
+│
+├── dropdown
+│   ├── DropdownSelectionTest.java
 │
 ├── dynamiccontent
 │   ├── MenuItemLoadingTest.java
